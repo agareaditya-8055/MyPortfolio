@@ -1,12 +1,4 @@
-import { useState } from "react";
-
-const Header = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false); // State for dark mode toggle
-
-  const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
-  };
-
+const Header = ({ isDarkMode, toggleDarkMode }) => {
   return (
     <header className="flex mt-5 items-center justify-around   my-0 mx-auto max-w-[80rem] border-b-[1px] border-blue-700">
       <h1 className="font-sans font-bold text-5xl text-customColor">AA</h1>
