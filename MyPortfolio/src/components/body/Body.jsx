@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useRef } from "react";
+import TypingAnimation from "../../utils/typingAnimation/TypingAnimation";
 
 const Body = () => {
+  const myNameRef = useRef(null);
   return (
     <main className="flex mt-[7rem] mx-auto px-28">
       <div className="flex flex-col w-1/2 flex-wrap">
         <div className="space-y-4">
           <h2 className="text-5xl mb-4">Hey,</h2>{" "}
-          <span className="text-2xl"> My name is Aditya |</span>
+          <span className="text-2xl">
+            {" "}
+            My name is <TypingAnimation element={myNameRef} text={["Aditya"]} />
+          </span>
           <p className="text-3xl leading-[3rem]">
             <span className="border-b-2 border-purple-700 font-bold text-customColor ">
               Turning passion into proficiency,
