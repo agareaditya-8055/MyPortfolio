@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import TypingAnimation from "../../utils/typingAnimation/TypingAnimation";
+import { Link } from "react-router-dom";
 
 const Body = () => {
   const myNameRef = useRef(null);
@@ -29,12 +30,12 @@ const Body = () => {
           >
             Resume
           </a>
-          <a
-            href="/about"
+          <Link
+            to="/about"
             className="px-4 py-2 border bg-blue-500 text-white hover:bg-white hover:border-blue-700 hover:text-blue-500 rounded-md font-medium"
           >
             More About Me
-          </a>
+          </Link>
         </div>
       </div>
       <div className="flex justify-center items-center w-1/2">

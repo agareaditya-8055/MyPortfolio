@@ -1,41 +1,43 @@
+import { Link } from "react-router-dom";
+
 const Header = ({ isDarkMode, toggleDarkMode }) => {
   return (
     <header className="flex mt-5 items-center justify-around   my-0 mx-auto max-w-[80rem] border-b-[1px] border-blue-700">
       <h1 className="font-sans font-bold text-5xl text-customColor">AA</h1>
       <ul className="flex items-center space-x-14 ">
         <li>
-          <a href="/" className="text-lg font-medium hover:text-gray-700">
+          <Link to="/" className="text-lg font-medium hover:text-gray-700">
             Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/about" className="text-lg font-medium hover:text-gray-700">
+          <Link to="/about" className="text-lg font-medium hover:text-gray-700">
             About
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="/projects"
+          <Link
+            to="/projects"
             className="text-lg font-medium hover:text-gray-700"
           >
             Projects
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="/achievements"
+          <Link
+            to="/achievements"
             className="text-lg font-medium hover:text-gray-700"
           >
             Achievements
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="text-lg font-medium hover:text-gray-700"
           >
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
 
