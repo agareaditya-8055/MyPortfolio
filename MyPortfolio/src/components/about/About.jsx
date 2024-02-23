@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import TypingAnimation from "../../utils/typingAnimation/TypingAnimation";
+import Technology from "./technology/Technologies";
 const About = () => {
   const textElement = useRef(null);
   return (
@@ -66,6 +67,7 @@ const About = () => {
           </p>
         </ul>
       </div>
+      <Technology />
     </div>
   );
 };
