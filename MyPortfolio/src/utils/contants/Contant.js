@@ -36,3 +36,60 @@ export const techLogo = [
     title: "Redux",
   },
 ];
+
+export const achieveCard = [
+  {
+    id: 1,
+    title: "Independent Project Development",
+    description:
+      "Successfully conceptualized, designed, and implemented multiple independent projects from scratch, demonstrating the ability to self-start and complete full project cycles independently.",
+  },
+  {
+    id: 2,
+    title: "Technological Diversity",
+    description:
+      "Mastered a diverse set of frontend technologies and tools, including HTML5, CSS3, JavaScript, and popular frameworks such as React.js through self-directed learning and practical application.",
+  },
+  {
+    id: 3,
+    title: "Responsive Design Mastery",
+    description:
+      "Achieved proficiency in responsive web design, ensuring a consistent and user-friendly experience across various devices and screen sizes without formal coursework or guidance.",
+  },
+  {
+    id: 4,
+    title: "Problem-Solving Skills",
+    description:
+      "Developed strong problem-solving skills by overcoming challenges encountered during the development process, using online resources, forums, and documentation to find solutions independently.",
+  },
+  {
+    id: 5,
+    title: "Version Control Proficiency",
+    description:
+      "Became proficient in using version control systems, such as Git, to manage and track changes in code, facilitating collaboration and maintaining code integrity across personal projects.",
+  },
+  {
+    id: 6,
+    title: "Portfolio Development",
+    description:
+      "Established a comprehensive portfolio showcasing a variety of projects, each highlighting different aspects of frontend development, providing evidence of practical skills and growth over time.",
+  },
+  {
+    id: 7,
+    title: "Learning Agility",
+    description:
+      "Demonstrated a high degree of learning agility by quickly adapting to new tools, libraries, and frameworks without formal education, showcasing a continuous commitment to staying current with industry trends.",
+  },
+  {
+    id: 8,
+    title: "User-Centric Design",
+    description:
+      "Prioritized user-centric design principles in project development, focusing on creating interfaces that enhance user experience and usability without formal design education.",
+  },
+  {
+    id: 9,
+    title: "Effective Time Management",
+    description:
+      "Developed strong time management skills to balance learning, personal projects, and potentially other commitments, showcasing the ability to efficiently allocate time and resources.",
+  },
+];
