@@ -1,8 +1,6 @@
 import React from "react";
-import AchievementCard from "./AchievementCard";
 import { achieveCard } from "../../utils/contants/Contant";
 import AchieveCard from "./AchievementCard";
-// import { achieveCard } from "../../utils/constant/Constant";
 
 const Achievement = () => {
   return (
