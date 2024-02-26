@@ -6,6 +6,7 @@ export default {
       colors: {
         customColor: "#845EC2",
         darkColor: "#191825",
+        textColor: "#FAF3F0",
         htmlColor: "#DD4B25",
         cssColor: "#254BDD",
         tailwindColor: "#49ABB6",
