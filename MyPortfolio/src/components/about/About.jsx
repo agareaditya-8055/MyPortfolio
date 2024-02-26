@@ -1,10 +1,16 @@
 import React, { useRef } from "react";
 import TypingAnimation from "../../utils/typingAnimation/TypingAnimation";
 import Technology from "./technology/Technologies";
+import { useSelector } from "react-redux";
 const About = () => {
   const textElement = useRef(null);
+  const isDarkMode = useSelector((state) => state.theme.darkMode);
   return (
-    <div className="flex flex-col mt-[2rem] mx-auto px-24">
+    <div
+      className={`flex flex-col mt-[2rem] mx-auto px-24 ${
+        isDarkMode && "text-textColor"
+      }`}
+    >
       <div className=" text-6xl  pl-64 ">
         {" "}
         I am{" "}

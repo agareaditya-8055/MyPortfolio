@@ -8,6 +8,8 @@ import About from "./components/about/About.jsx";
 import Project from "./components/projects/Project.jsx";
 import Achievement from "./components/achievement/Achievement.jsx";
 import Contact from "./components/contact/Contact.jsx";
+import { Provider } from "react-redux";
+import appStore from "./store/appStore.js";
 
 const show = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -40,4 +42,8 @@ const appRouter = createBrowserRouter([
   },
 ]);
 
-show.render(<RouterProvider router={appRouter} />);
+show.render(
+  <Provider store={appStore}>
+    <RouterProvider router={appRouter} />
+  </Provider>
+);

@@ -1,11 +1,17 @@
 import React, { useRef } from "react";
 import TypingAnimation from "../../utils/typingAnimation/TypingAnimation";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 const Body = () => {
   const myNameRef = useRef(null);
+  const isDarkMode = useSelector((state) => state.theme.darkMode);
   return (
-    <main className="flex mt-[7rem] mx-auto px-28">
+    <main
+      className={`flex mt-[7rem] mx-auto px-28 ${
+        isDarkMode && "text-textColor"
+      }`}
+    >
       <div className="flex flex-col w-1/2 flex-wrap">
         <div className="space-y-4">
           <h2 className="text-5xl mb-4">Hey,</h2>{" "}
