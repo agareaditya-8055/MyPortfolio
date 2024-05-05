@@ -4,6 +4,7 @@ import App from "./App.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Body from "./components/body/Body.jsx";
+import LiveProject from "./components/projects/live/LiveProject.jsx";
 import About from "./components/about/About.jsx";
 import Project from "./components/projects/Project.jsx";
 import Achievement from "./components/achievement/Achievement.jsx";
@@ -29,6 +30,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/projects",
         element: <Project />,
+      },
+      {
+        path: "/projects/:projectName",
+        element: <LiveProject />,
       },
       {
         path: "/achievements",

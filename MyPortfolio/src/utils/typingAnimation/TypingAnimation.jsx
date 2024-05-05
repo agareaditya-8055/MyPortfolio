@@ -10,7 +10,7 @@ const TypingAnimation = ({ element, text }) => {
     });
   }, []);
 
-  return <span className="text-customColor text-3xl" ref={element}></span>;
+  return <span className="text-customColor text-6xl " ref={element}></span>;
 };
 
 export default TypingAnimation;

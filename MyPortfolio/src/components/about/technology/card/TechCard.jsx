@@ -3,7 +3,7 @@ import React from "react";
 const TechCard = ({ path, currentColor, title }) => {
   return (
     <div
-      className={`flex flex-col gap-2 items-center cursor-pointer ${currentColor}   shadow-xl shadow-bg-gray-800 justify-center my-6 w-64 h-48 rounded-3xl bg-customColor overflow-hidden transition-transform duration-300 transform-gpu hover:scale-105 `}
+      className={`flex flex-col gap-2 items-center relative z-[-50] ${currentColor}   shadow-xl shadow-bg-gray-800 justify-center my-6 w-64 h-48 rounded-3xl bg-customColor overflow-hidden transition-transform duration-300 transform-gpu hover:scale-105 `}
     >
       <svg
         stroke="white"

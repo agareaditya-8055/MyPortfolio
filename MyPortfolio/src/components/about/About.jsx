@@ -7,11 +7,11 @@ const About = () => {
   const isDarkMode = useSelector((state) => state.theme.darkMode);
   return (
     <div
-      className={`flex flex-col mt-[2rem] mx-auto px-24 ${
+      className={`about-container flex flex-col mt-40 mx-auto px-0 sm:px-20 max-w-[1200px] ${
         isDarkMode && "text-textColor"
       }`}
     >
-      <div className=" text-6xl  pl-64 ">
+      <div className=" text-6xl   ">
         {" "}
         I am{" "}
         <TypingAnimation
@@ -23,10 +23,9 @@ const About = () => {
             "Self-Motivated,",
             "Supportive.",
           ]}
-          fontSize="[6rem]"
         />
       </div>
-      <div className="mt-16 text-[1.3rem] text-wrap">
+      <div className="mt-16 text-[1.5rem] text-wrap">
         <ul>
           <p>
             I am an ambitious self-taught Frontend Developer with a background

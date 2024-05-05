@@ -10,9 +10,11 @@ function App() {
     document.querySelector("html").classList.add(isDarkMode);
   }, [isDarkMode]);
   return (
-    <div className={`container mx-auto px-4 `}>
+    <div className="w-full  min-h-screen mx-auto px-6 py-2">
       <Header />
-      <Outlet />
+      <div className="app-container mt-32">
+        <Outlet />
+      </div>
     </div>
   );
 }
