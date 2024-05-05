@@ -35,7 +35,7 @@ const LiveProject = () => {
         />
       </div>
       <div className="w-full md:w-1/2  ">
-        <h2 className="text-7xl flex text-customColor border-b-2 border-customColor font-bold mb-5 sm:mb-10">
+        <h2 className="text-7xl text-customColor border-b-2 border-customColor font-bold mb-5 sm:mb-10">
           {project.name}
         </h2>
         <p className="text-2xl sm:text-4xl">{project.description}</p>
